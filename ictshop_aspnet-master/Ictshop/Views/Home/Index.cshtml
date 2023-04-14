@@ -1,0 +1,68 @@
+﻿@{
+    ViewBag.Title = "THT Astray Shop";
+
+}
+
+<br />
+<div class="right-content">
+    <div class="col-md-8">
+        @Html.Action("SlidePartial", "Home")
+    </div>
+    <div class="col-md-4">
+        <img src="~/HinhanhSP/LordZZ.jpg"  width="297" class="img-responsive" alt="" /> <br />
+    </div>
+</div>
+<br />
+<br/>
+<img src="~/HinhanhSP/banner2.jpg" width="1200" class="img-responsive" alt="" />
+
+<div class="spnoibat">
+    <div class="row">
+        <br />
+        <h2> Hàng Hot trong tuần</h2>
+        <br />
+        <div class="col-md-4">
+            <img src="~/HinhanhSP/008.jpg" width="300"
+                 class="img-responsive" alt="" />
+
+            <h3> RG RX-93 Nu Gundam</h3>
+        </div>
+        <div class="col-md-4">
+            <img src="~/HinhanhSP/009.jpg" width="300" class="img-responsive" alt="" />
+            <h3> RG MSN-04 Sazabi</h3>
+        </div>
+        <div class="col-md-4">
+            <img src="~/HinhanhSP/0010.jpg" width="380"
+                 class="img-responsive" alt="" />
+
+            <h3> RG Sinanju</h3>
+        </div>
+        
+    </div>
+    
+</div>
+<br /><br />
+ <img src="~/HinhanhSP/ibo.jpg" width="1400" class="img-responsive" alt=""/>
+<br />
+ <h1>TẤT CẢ SẢN PHẨM</h1>
+
+<div class="dt">
+
+    @Html.Action("HGGundam", "Sanpham");
+</div>
+<div class="dt">
+
+    @Html.Action("MGGundam", "Sanpham")
+</div>
+
+<div class="dt">
+
+    @Html.Action("RGGundam", "Sanpham")
+</div>
+
+<div class="row">
+    
+    <img src="~/HinhanhSP/bannere.png" width="1400" class="img-responsive" alt="" />
+
+</div>
+
